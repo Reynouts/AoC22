@@ -5,3 +5,6 @@
 
 ## [--- Day 1: Calorie Counting ---](http://adventofcode.com/2022/day/1)
 
+
+## [--- Day 2: Rock Paper Scissors ---](http://adventofcode.com/2022/day/2)
+

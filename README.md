@@ -8,3 +8,6 @@
 
 ## [--- Day 2: Rock Paper Scissors ---](http://adventofcode.com/2022/day/2)
 
+
+## [--- Day 3: Rucksack Reorganization ---](http://adventofcode.com/2022/day/3)
+

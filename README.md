@@ -14,3 +14,6 @@
 
 ## [--- Day 4: Camp Cleanup ---](http://adventofcode.com/2022/day/4)
 
+
+## [--- Day 5: Supply Stacks ---](http://adventofcode.com/2022/day/5)
+

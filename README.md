@@ -17,3 +17,6 @@
 
 ## [--- Day 5: Supply Stacks ---](http://adventofcode.com/2022/day/5)
 
+
+## [--- Day 6: Tuning Trouble ---](http://adventofcode.com/2022/day/6)
+

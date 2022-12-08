@@ -5,19 +5,10 @@ class Directory():
         self.parent = parent
         self.name = name
         self.dirs = set()
-        self.files = set()
+        self.files = []
 
     def get_size(self):
-        return sum([o.get_size() for o in self.files|self.dirs])
-
-class File():
-    def __init__(self, name, parent, size):
-        self.parent = parent
-        self.name = name
-        self.size = size
-
-    def get_size(self):
-        return self.size
+        return sum(self.files)+sum([dir.get_size() for dir in self.dirs])
 
 
 def traverse(visited, current, initial, op, func, check):
@@ -54,7 +45,7 @@ def main():
                 current.dirs.add(Directory(d.split()[-1], current))
             else:
                 size, name = d.split()
-                current.files.add(File(name, current, int(size)))
+                current.files.append(int(size))
 
     max_size = 100000
     print(f'Part1: {traverse(set(), root, [], operator.le, sum, max_size)}')

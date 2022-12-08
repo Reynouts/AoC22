@@ -40,14 +40,11 @@ def get_dictgridfromfile(file):
 
 
 def get_gridfromfile(file):
-    cells = []
+    grid = []
     with open(file, 'r') as f:
-        for i, line in enumerate(f.readlines()):
-            cells.append([])
-            for j, cell in enumerate(line):
-                if cell != "\n":
-                    cells[-1].append(int(cell))
-    return cells
+        for line in f.read().splitlines():
+            grid.append([int(c) for c in line])
+    return grid
 
 
 def print_griddict(griddict, frame, default="."):

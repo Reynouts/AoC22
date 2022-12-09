@@ -26,3 +26,6 @@
 
 ## [--- Day 8: Treetop Tree House ---](http://adventofcode.com/2022/day/8)
 
+
+## [--- Day 9: Rope Bridge ---](http://adventofcode.com/2022/day/9)
+

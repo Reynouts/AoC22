@@ -29,3 +29,6 @@
 
 ## [--- Day 9: Rope Bridge ---](http://adventofcode.com/2022/day/9)
 
+
+## [--- Day 10: Cathode-Ray Tube ---](http://adventofcode.com/2022/day/10)
+

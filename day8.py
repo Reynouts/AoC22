@@ -1,3 +1,6 @@
+import aocutils
+
+@aocutils.timeit
 def main():
     grid = []
     with open('day8.txt', 'r') as f:

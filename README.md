@@ -32,3 +32,6 @@
 
 ## [--- Day 10: Cathode-Ray Tube ---](http://adventofcode.com/2022/day/10)
 
+
+## [--- Day 11: Monkey in the Middle ---](http://adventofcode.com/2022/day/11)
+

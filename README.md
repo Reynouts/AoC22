@@ -35,3 +35,6 @@
 
 ## [--- Day 11: Monkey in the Middle ---](http://adventofcode.com/2022/day/11)
 
+
+## [--- Day 12: Hill Climbing Algorithm ---](http://adventofcode.com/2022/day/12)
+

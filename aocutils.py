@@ -43,7 +43,7 @@ def get_gridfromfile(file):
     grid = []
     with open(file, 'r') as f:
         for line in f.read().splitlines():
-            grid.append([int(c) for c in line])
+            grid.append([c for c in line])
     return grid
 
 

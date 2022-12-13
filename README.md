@@ -38,3 +38,6 @@
 
 ## [--- Day 12: Hill Climbing Algorithm ---](http://adventofcode.com/2022/day/12)
 
+
+## [--- Day 13: Distress Signal ---](http://adventofcode.com/2022/day/13)
+

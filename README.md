@@ -41,3 +41,6 @@
 
 ## [--- Day 13: Distress Signal ---](http://adventofcode.com/2022/day/13)
 
+
+## [--- Day 14: Regolith Reservoir ---](http://adventofcode.com/2022/day/14)
+

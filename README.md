@@ -44,3 +44,6 @@
 
 ## [--- Day 14: Regolith Reservoir ---](http://adventofcode.com/2022/day/14)
 
+
+## [--- Day 15: Beacon Exclusion Zone ---](http://adventofcode.com/2022/day/15)
+

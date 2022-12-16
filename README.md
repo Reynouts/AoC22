@@ -47,3 +47,6 @@
 
 ## [--- Day 15: Beacon Exclusion Zone ---](http://adventofcode.com/2022/day/15)
 
+
+## [--- Day 16: Proboscidea Volcanium ---](http://adventofcode.com/2022/day/16)
+

@@ -1,6 +1,3 @@
-import functools
-
-
 def compare(list1, list2):
     for i in range(min(len(list1), len(list2))):
         if type(list1[i]) is not list and type(list2[i]) is not list:
@@ -27,16 +24,6 @@ def compare(list1, list2):
         return None
 
 
-def cmp(list1, list2):
-    res = compare(list1, list2)
-    if res == True:
-        return -1
-    if res == False:
-        return 1
-    else:
-        return 0
-
-
 def main():
     with open("day13.txt", 'r') as f:
         pairs = [list(map(eval, pairs.split("\n"))) for pairs in f.read().split("\n\n")]
@@ -44,8 +31,13 @@ def main():
     print(f'Part1: {sum([index + 1 for index, packet in enumerate(pairs) if compare(*packet)])}')
 
     dividers = [[[6]], [[2]]]
-    p2 = sorted(dividers + [packet for pair in pairs for packet in pair], key=functools.cmp_to_key(cmp))
-    print(f'Part2: {(p2.index(dividers[0]) + 1) * (p2.index(dividers[1]) + 1)}')
+    s1, s2 = 1, 1
+    for i in dividers + [packet for pair in pairs for packet in pair]:
+        if compare(i, dividers[0]):
+            s1 += 1
+        if compare(i, dividers[1]):
+            s2 += 1
+    print(f'Part2: {s1*s2}')
 
 
 if __name__ == "__main__":

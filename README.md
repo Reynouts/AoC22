@@ -53,3 +53,6 @@
 
 ## [--- Day 17: Pyroclastic Flow ---](http://adventofcode.com/2022/day/17)
 
+
+## [--- Day 18: Boiling Boulders ---](http://adventofcode.com/2022/day/18)
+

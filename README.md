@@ -56,3 +56,6 @@
 
 ## [--- Day 18: Boiling Boulders ---](http://adventofcode.com/2022/day/18)
 
+
+## [--- Day 19: Not Enough Minerals ---](http://adventofcode.com/2022/day/19)
+

@@ -59,3 +59,6 @@
 
 ## [--- Day 19: Not Enough Minerals ---](http://adventofcode.com/2022/day/19)
 
+
+## [--- Day 20: Grove Positioning System ---](http://adventofcode.com/2022/day/20)
+

@@ -62,3 +62,6 @@
 
 ## [--- Day 20: Grove Positioning System ---](http://adventofcode.com/2022/day/20)
 
+
+## [--- Day 21: Monkey Math ---](http://adventofcode.com/2022/day/21)
+

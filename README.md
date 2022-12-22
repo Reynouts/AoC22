@@ -65,3 +65,6 @@
 
 ## [--- Day 21: Monkey Math ---](http://adventofcode.com/2022/day/21)
 
+
+## [--- Day 22: Monkey Map ---](http://adventofcode.com/2022/day/22)
+

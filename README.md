@@ -68,3 +68,6 @@
 
 ## [--- Day 22: Monkey Map ---](http://adventofcode.com/2022/day/22)
 
+
+## [--- Day 23: Unstable Diffusion ---](http://adventofcode.com/2022/day/23)
+

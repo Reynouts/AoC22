@@ -71,3 +71,6 @@
 
 ## [--- Day 23: Unstable Diffusion ---](http://adventofcode.com/2022/day/23)
 
+
+## [--- Day 24: Blizzard Basin ---](http://adventofcode.com/2022/day/24)
+

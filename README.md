@@ -74,3 +74,6 @@
 
 ## [--- Day 24: Blizzard Basin ---](http://adventofcode.com/2022/day/24)
 
+
+## [--- Day 25: Full of Hot Air ---](http://adventofcode.com/2022/day/25)
+

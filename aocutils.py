@@ -47,12 +47,12 @@ def get_gridfromfile(file):
     return grid
 
 
-def print_griddict(griddict, frame, default="."):
+def print_griddict(griddict, frame, default=" "):
     res = ""
     for i in range(frame[0], frame[1]):
         for j in range(frame[2], frame[3]):
-            if (i, j) in griddict:
-                res += griddict[(i, j)]
+            if (j, i) in griddict:
+                res += griddict[(j, i)]
             else:
                 res += default
         res += "\n"

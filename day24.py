@@ -6,7 +6,6 @@ blizzard_pool = []
 def run(start, end, points, steps=0, lcm=600):
     q = [(start, steps)]
     visited = set((start, steps%lcm))
-    old_step = -1
     while q:
         current, steps = q.pop(0)
         if current == end:

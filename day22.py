@@ -24,7 +24,7 @@ class Player:
         self.heading_index = heading_index
 
     def get_score(self):
-        return 1000 * (self.current.y + 1) + 4 * (self.current.x + 1) + self.heading_index
+        return 1000*(self.current.y+1)+4*(self.current.x+1)+self.heading_index
 
     def rotate(self, argument):
         if argument == "R":
@@ -93,25 +93,25 @@ def set_neighbours(tiles):
 
 
 def marksides(grid):
-    for test in helper.split('\n\n')[1:]:
-        start, inc = test.split("\n")
-        xs1, ys1, dir, xs2, ys2, rotate = list(map(int, re.findall("\d+", start)))
-        x1, y1, x2, y2 = list(map(int, re.findall("-?\d+", inc)))
+        for test in helper.split('\n\n')[1:]:
+            start, inc = test.split("\n")
+            xs1, ys1, dir, xs2, ys2, rotate = list(map(int, re.findall("\d+", start)))
+            x1, y1, x2, y2 = list(map(int, re.findall("-?\d+", inc)))
 
-        for _ in range(50):
-            if dir == 0:
-                grid[(xs1, ys1)].right = grid[(xs2, ys2)]
-            elif dir == 1:
-                grid[(xs1, ys1)].bottom = grid[(xs2, ys2)]
-            elif dir == 2:
-                grid[(xs1, ys1)].left = grid[(xs2, ys2)]
-            elif dir == 3:
-                grid[(xs1, ys1)].top = grid[(xs2, ys2)]
-            grid[(xs1, ys1)].rot[int(dir)] = int(rotate)
-            xs1 += x1
-            ys1 += y1
-            xs2 += x2
-            ys2 += y2
+            for _ in range(50):
+                if dir == 0:
+                    grid[(xs1, ys1)].right = grid[(xs2, ys2)]
+                elif dir == 1:
+                    grid[(xs1, ys1)].bottom = grid[(xs2, ys2)]
+                elif dir == 2:
+                    grid[(xs1, ys1)].left = grid[(xs2, ys2)]
+                elif dir == 3:
+                    grid[(xs1, ys1)].top = grid[(xs2, ys2)]
+                grid[(xs1, ys1)].rot[int(dir)] = int(rotate)
+                xs1 += x1
+                ys1 += y1
+                xs2 += x2
+                ys2 += y2
 
 
 def run(instructions, tiles, start_pos):
@@ -147,52 +147,54 @@ def main():
     print("Part2:", run(instructions, tiles, start_pos))
 
 
-helper = \
-    """
-    start_tile start_direction target_tile needed_rotation
-    dx1,dy1 dx2,dy2
-    
-    50,0 2 0,149 0
-    0,1 0,-1
-    
-    0,100 2 50,49 0
-    0,1 0,-1
-    
-    50,0 3 0,150 0
-    1,0 0,1
-    
-    0,150 2 50,0 1
-    0,1 1,0
-    
-    0,100 3 50,50 0
-    1,0 0,1
-    
-    50,50 2 0,100 1
-    0,1 1,0
-    
-    100,0 3 0,199 3
-    1,0 1,0
-    
-    0,199 1 100,0 1
-    1,0 1,0
-    
-    149,0 0 99,149 2
-    0,1 0,-1
-    
-    99,149 0 149,0 2
-    0,-1 0,1
-    
-    100,49 1 99,50 2
-    1,0 0,1
-    
-    99,50 0 100,49 3
-    0, 1 1,0
-    
-    50,149 1 49,150 2
-    1,0 0,1
-    
-    49,150 0 50,149 3
-    0,1 1,0"""
+helper = """
+start_tile start_direction target_tile needed_rotation
+dx1,dy1 dx2,dy2
+
+50,0 2 0,149 0
+0,1 0,-1
+
+0,100 2 50,49 0
+0,1 0,-1
+
+50,0 3 0,150 0
+1,0 0,1
+
+0,150 2 50,0 1
+0,1 1,0
+
+0,100 3 50,50 0
+1,0 0,1
+
+50,50 2 0,100 1
+0,1 1,0
+
+100,0 3 0,199 3
+1,0 1,0
+
+0,199 1 100,0 1
+1,0 1,0
+
+149,0 0 99,149 2
+0,1 0,-1
+
+99,149 0 149,0 2
+0,-1 0,1
+
+100,49 1 99,50 2
+1,0 0,1
+
+99,50 0 100,49 3
+0, 1 1,0
+
+50,149 1 49,150 2
+1,0 0,1
+
+49,150 0 50,149 3
+0,1 1,0"""
+
 
 if __name__ == "__main__":
     main()
+
+
